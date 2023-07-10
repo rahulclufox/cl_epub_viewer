@@ -76,7 +76,7 @@ public class SwiftEpubViewerPlugin: NSObject, FlutterPlugin,FolioReaderPageDeleg
           }
 
           let readerVc = UIApplication.shared.keyWindow!.rootViewController ?? UIViewController()
-          folioReader.presentReader(parentViewController: readerVc, withEpubPath: epubPath, andConfig: self.config!.config, shouldRemoveEpub: false)
+          folioReader.presentReader(parentViewController: readerVc, withEpubPath: epubPath, andConfig: self.config!.config, shouldRemoveEpub: true)
           folioReader.readerCenter?.pageDelegate = self
       }
 
