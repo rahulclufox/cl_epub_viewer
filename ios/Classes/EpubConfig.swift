@@ -24,8 +24,10 @@ class EpubConfig: NSObject {
         self.config.canChangeScrollDirection = false
         if scrollDirection == "vertical"{
             self.config.scrollDirection = FolioReaderScrollDirection.vertical
+            self.scrollDirection = .vertical
         }else if (scrollDirection == "horizontal"){
             self.config.scrollDirection = FolioReaderScrollDirection.horizontal
+            self.scrollDirection = .horizontal
         }else{
             self.config.canChangeScrollDirection = true
         }
