@@ -10,11 +10,6 @@ PODS:
   - Flutter (1.0.0)
   - FontBlaster (5.1.1)
   - MenuItemKit (4.0.1)
-  - path_provider_foundation (0.0.1):
-    - Flutter
-    - FlutterMacOS
-  - permission_handler_apple (9.1.1):
-    - Flutter
   - Realm (5.5.1):
     - Realm/Headers (= 5.5.1)
   - Realm/Headers (5.5.1)
@@ -28,8 +23,6 @@ PODS:
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
-  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/ios`)
-  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
   - vocsy_epub_viewer (from `.symlinks/plugins/vocsy_epub_viewer/ios`)
 
 SPEC REPOS:
@@ -46,10 +39,6 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
-  path_provider_foundation:
-    :path: ".symlinks/plugins/path_provider_foundation/ios"
-  permission_handler_apple:
-    :path: ".symlinks/plugins/permission_handler_apple/ios"
   vocsy_epub_viewer:
     :path: ".symlinks/plugins/vocsy_epub_viewer/ios"
 
@@ -59,8 +48,6 @@ SPEC CHECKSUMS:
   Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
   FontBlaster: 8897ebdbb4b6ace3ab78c92b665d88c954f19e4a
   MenuItemKit: 1459920e984d823e1bcc858b7a964f94e6bfa0f6
-  path_provider_foundation: eaf5b3e458fc0e5fbb9940fb09980e853fe058b8
-  permission_handler_apple: e76247795d700c14ea09e3a2d8855d41ee80a2e6
   Realm: c2ffe0667f9c98c9ba65f608ba85684d39826145
   RealmSwift: 5a35c1c35c3e1925e6fcd092c881d5cc4a826bff
   SSZipArchive: 62d4947b08730e4cda640473b0066d209ff033c9
