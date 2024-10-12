@@ -138,15 +138,15 @@ class _MyAppState extends State<MyApp> {
                           themeColor: Theme.of(context).primaryColor,
                           identifier: "iosBook",
                           scrollDirection: EpubScrollDirection.ALLDIRECTIONS,
-                          allowSharing: true,
-                          enableTts: true,
-                          nightMode: true,
+                          allowSharing: false,
+                          enableTts: false,
+                          nightMode: false,
                         );
                         // get current locator
                         VocsyEpub.locatorStream.listen((locator) {
                           print('LOCATOR: $locator');
                         });
-                        await VocsyEpub.openAsset(
+                         VocsyEpub.open(
                           'assets/4.epub',
                           lastLocation: EpubLocator.fromJson({
                             "bookId": "2239",
